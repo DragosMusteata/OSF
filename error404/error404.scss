@@ -1,0 +1,71 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar #OSF {
+    width: 73px;
+    color: #011847;
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 6.33px;
+}
+
+.navbar #Academy {
+    width: 74px;
+    color: #84bc22;
+    font-family: "Lato";
+    font-size: 18px;
+    text-align: left;
+}
+
+.navbar-nav .nav-link {
+    color: #262a32;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #262a32;
+    color: white;
+}
+
+.navbar-nav .nav-item i {
+    size: 50px;
+}
+
+.dropdown-mega .dropdown-menu {
+    width: 100%;
+    background-color: #262a32;
+    padding: 30px;
+}
+
+.dropdown-mega h5 {
+    color: white;
+    padding-left: 20px;
+
+}
+
+.dropdown-mega .list-group {
+    padding-top: 30px;
+}
+
+.dropdown-mega .list-group-item {
+    font-size: 1rem;
+    color: white;
+    background-color: #262a32;
+    border: 0;
+}
+
+footer .list-group-item {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 0;
+}
